@@ -1,0 +1,98 @@
+#Abouts{
+    margin-top: 100px;
+}
+header h1{
+    color: mediumspringgreen;
+    /* text-align: non; */
+    margin-bottom: 5;
+    margin: 10px;
+    text-align: center;
+}
+hr{
+    background-color: aqua;
+    width: 20%;
+    height: 5px;
+    border: none;
+    /* margin-top: 0; */
+    margin: 5px auto;
+
+}
+header p{
+    font-size: 20px;
+    width: 60%;
+    /* text-align: center; */
+    margin: 30px auto;
+}
+
+main{
+    display: flex;
+    margin: 40px 30px;
+    justify-content: space-between;
+
+}
+main #Know{
+    width: 45%;
+    /* border: 1px solid beige; */
+    /* margin-right: 70px; */
+}
+main #Know h3{
+    margin: 20px;
+    font-size: xx-large;
+    text-align: start;
+}
+main #Know p{
+    font-size: 18px;
+    color: grey;
+}
+main #Know p span{
+    color: mediumspringgreen;
+}
+main #Know button {
+    background-color: mediumspringgreen;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 25%;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  main #Know button:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+
+
+
+main #skils{
+    width: 45%;
+    /* border: 1px solid beige; */
+    
+}
+
+main #skils p{
+    background-color: mediumspringgreen;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 15px;
+    margin: 10px;
+    /* width: 20%; */
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+

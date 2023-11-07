@@ -1,0 +1,48 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff; /* Set a background color to make the navbar stand out */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for a visual effect */
+  z-index: 1000; /* Adjust z-index to ensure it appears above other content */
+}
+
+/* Rest of your styles for .logo, .nav-links, etc. */
+
+  
+  .logo {
+    display: flex;
+    justify-content: start;
+    margin: 5px;
+  }
+  
+  .logo span {
+    color: #98FB98;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  img {
+    width: 50px;
+    border-radius: 40%;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    margin: 5px 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
